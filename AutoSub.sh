@@ -1,5 +1,5 @@
 #!/bin/sh
-###wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AutoSub/AutoSub.sh | /bin/sh
+###wget --no-check-certificate -O - https://github.com/tarekzoka/raw/refs/heads/main/AutoSub/AutoSub.sh | /bin/sh
 ###################
 
 echo "install shiavoice"
@@ -7,7 +7,7 @@ sleep 2
 
 cd /tmp
 
-curl -k -L -o /tmp/shiavoice.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AutoSub/AutoSub.tar.gz"
+curl -k -L -o /tmp/shiavoice.tar.gz "https://github.com/tarekzoka/raw/refs/heads/main/AutoSub/AutoSub.tar.gz"
 
 sleep 1
 echo "installing ...."
@@ -27,7 +27,7 @@ sleep 1
 cd
 rm -f /tmp/AutoSub.tar.gz
 
-echo " UPLOADED BY EMIL_NABIL"
+echo " UPLOADED BY TAREK-HANFY"
 sleep 4
 echo ""
 echo ""
